@@ -11,6 +11,9 @@ public class Task10 {
         else if (age>18 & age<50){
             System.out.println("User may Proceed");
         }
+        else if (age>50 & age<70){
+            System.out.println("You have last chance");
+        }
         else{
             System.out.println("You're too Old");
         }
