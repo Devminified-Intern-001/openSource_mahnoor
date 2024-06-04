@@ -3,9 +3,9 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner t1=new Scanner(System.in);
-        System.out.println("Enter First Number:");
+        System.out.println("Enter second Number:");
         int num1=t1.nextInt();
-        System.out.println("Enter Second Number:");
+        System.out.println("Enter first Number:");
         int num2=t1.nextInt();
         int product=num1*num2;
         if (product<100){
