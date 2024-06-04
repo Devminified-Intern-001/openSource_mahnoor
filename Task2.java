@@ -9,12 +9,20 @@ public class Task2 {
         int n2=t1.nextInt();
         System.out.println("Enter 3rd no:");
         int n3=t1.nextInt();
-        int sum=n1+n2;
-        if(sum==n3){
+        System.out.println("Enter 4th no:");
+        int n4=t1.nextInt();
+        int sum1=n1+n2;
+        int sum2=n1+n2+n3;
+        if(sum1==n3){
             System.out.println("The "+n1 +" and "+n2+" are bond of "+n3);
+            System.out.println("The ");
+        }
+        else if(sum2==n4){
+            System.out.println("The "+n1 +", "+n2+" and "+n3+" are bond of "+n4);
         }
         else {
             System.out.println("The "+n1 +" and "+n2+" are not a bond of "+n3);
+            System.out.println("The "+n1 +", "+n2+" and "+n3+" are not a bond of "+n4);
         }
     }
 }
