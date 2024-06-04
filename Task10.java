@@ -3,7 +3,8 @@ import java.util.Scanner;
 public class Task10 {
     public static void main(String[] args){
         Scanner obj2=new Scanner(System.in);
-        System.out.println("Enter your age");
+        System.out.println("Enter your age in numbers like 1,2");
+        System.out.println("Enter only Age");
         int age=obj2.nextInt();
         if(age<18){
             System.out.println("You are too Young");
