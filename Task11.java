@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class Task11 {
     public static void main(String[] args) {
         Scanner obj=new Scanner(System.in);
-        System.out.println("Enter the positive integer :");
+        System.out.println("Enter the integer which is positive+ve :");
         int num=obj.nextInt();
         if(num%2==0){
             System.out.println("It is Even Number" + num);
